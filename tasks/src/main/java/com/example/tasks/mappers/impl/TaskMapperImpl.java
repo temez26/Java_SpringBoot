@@ -3,8 +3,11 @@ package com.example.tasks.mappers.impl;
 import com.example.tasks.domain.dto.TaskDto;
 import com.example.tasks.domain.entities.Task;
 import com.example.tasks.mappers.TaskMapper;
+import org.springframework.stereotype.Component;
 
-public class TaskMapperlmpl implements TaskMapper {
+
+@Component
+public class TaskMapperImpl implements TaskMapper {
 
 
     @Override
